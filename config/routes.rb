@@ -1,13 +1,15 @@
 Rails.application.routes.draw do
-  get 'persons/profile'
+  
 
-  resources :posts
+  resources :posts do
+    resources :comments
+  end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'posts#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -59,5 +61,5 @@ Rails.application.routes.draw do
   #   end
 end
 
-# root 'home#index'
+#root 'welcome#index'
 # get 'persons/profile', as: 'user_root'
