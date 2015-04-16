@@ -1,17 +1,22 @@
-%h1 Listing posts
-%table
- %tr
-  %th Title
-  %th Text
-  - @posts.each do |post| 
-   %tr
-    %td= post.title 
-    %td= post.text 
-    %td= link_to 'Show', post_path(post)
-    %td= link_to 'Edit', edit_post_path(post) 
-    %td= link_to 'Destroy', post_path(post), method: :delete, data: { confirm: 'Are you sure?' } 
+%div.col-md-6.col-md-offset-3
+ %h1.text-center Listing posts
+ %br
+ %table.table
+  %tr
+   %th Title
+   %th Text
+   %th
+   - @posts.each do |post| 
+    %tr
+     %td= post.title 
+     %td= post.text 
+     %td 
+      %div 
+       %button.btn.btn-link= link_to 'Show', post_path(post)
+       %button.btn.btn-link= link_to 'Edit', edit_post_path(post) 
+       %button.btn.btn-link= link_to 'Destroy', post_path(post), method: :delete, data: { confirm: 'Are you sure?' } 
 
-%br
+ %br
 
-= link_to 'New Post', new_post_path 
+ %button.btn.btn-default= link_to 'New Post', new_post_path 
 

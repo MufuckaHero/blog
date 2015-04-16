@@ -6,11 +6,13 @@
  %strong Text:
  = @post.text 
 
-%h2 Comments
+%br
+
+%h4 Comments
 = render @post.comments 
 
 
-%h2 Add a comment:
+%h4 Add a comment:
 
 = render "comments/form"
 
