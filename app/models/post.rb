@@ -3,4 +3,5 @@ class Post < ActiveRecord::Base
                     length: { minimum: 2 }
 
     has_many :comments , dependent: :destroy
+    belongs_to :user
 end

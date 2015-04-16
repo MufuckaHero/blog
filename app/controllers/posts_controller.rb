@@ -5,12 +5,14 @@ class PostsController < ApplicationController
   # GET /posts.json
   def index
     @posts = Post.all
+    authorize! :read, @posts
   end
 
   # GET /posts/1
   # GET /posts/1.json
   def show
     @post = Post.find(params[:id])
+    authorize! :read, @post
   end
 
   # GET /posts/new
