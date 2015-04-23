@@ -1,22 +1,25 @@
-%p
- %strong Title:
- = @post.title 
+%h1= @post.title 
  
+%p= @post.text 
+
+%p= @post.user.email
+
 %p
- %strong Text:
- = @post.text 
+  -if @post.user == current_user
+    %button.btn.btn-default= link_to 'Edit', edit_post_path(@post) 
+    %button.btn.btn-default= link_to 'Destroy', post_path(@post), method: :delete, data: { confirm: "Are you sure?" } 
 
 %br
 
-%h4 Comments
-= render @post.comments 
+.col-lg-6
+  %h4 Comments
+  = render @post.comments 
 
 
-%h4 Add a comment:
+  %h4 Add a comment:
 
-= render "comments/form"
+  = render "comments/form"
 
-%p
- = link_to 'Edit', edit_post_path(@post) 
- = link_to 'Back', posts_path 
+  %p 
+    = link_to 'All Posts', posts_path 
 

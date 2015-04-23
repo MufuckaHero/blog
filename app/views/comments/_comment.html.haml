@@ -7,6 +7,5 @@
   = comment.body 
 
 %p
-= link_to 'Destroy Comment', [comment.post, comment],
-              method: :delete,
-              data: { confirm: 'Are you sure?' } 
+  -if comment.user == current_user
+    = link_to 'Destroy Comment',  [comment.post, comment] , method: :delete, data: { confirm: 'Are you sure?' } 
