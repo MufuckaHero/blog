@@ -1,0 +1,218 @@
+[33mcommit f10295b06b5310d0c8c7af27a7ed658af82c949a[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Thu May 14 18:47:26 2015 +0300
+
+    Procfile
+
+[33mcommit f50abf9c03b72dc5b6f3cc0fe7c279c1244fa3bd[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Sun May 10 19:33:24 2015 +0300
+
+    ready application
+
+[33mcommit a66327336a92c4da019a89fc95ee1070d2594e38[m
+Merge: 64455b0 77ee91a
+Author: Anna <mafackahero@gmail.com>
+Date:   Fri May 8 23:30:54 2015 +0300
+
+    Merge branch 'master' of https://git.heroku.com/enigmatic-oasis-7519
+
+[33mcommit 64455b0678e2ddee45a821fce11069ef9a6929da[m
+Merge: 4b9f5db c9fee8c
+Author: Anna <mafackahero@gmail.com>
+Date:   Fri May 8 21:21:16 2015 +0300
+
+    Merge branch 'master' of https://git.heroku.com/enigmatic-oasis-7519
+
+[33mcommit 77ee91a8ff7c213d21ba5a00a93bf190f5b830e1[m
+Merge: 4b9f5db c9fee8c
+Author: Anna <mafackahero@gmail.com>
+Date:   Fri May 8 21:21:16 2015 +0300
+
+    Merge branch 'master' of https://git.heroku.com/enigmatic-oasis-7519
+
+[33mcommit 4b9f5db678623955eb71c874eeb649435a5cd00d[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Thu May 7 13:03:45 2015 +0300
+
+    last
+
+[33mcommit c9fee8cfba1013f494f17ec48db496caef9937a9[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Thu May 7 13:03:45 2015 +0300
+
+    last
+
+[33mcommit a28b731daa568cece5c6ef6896f10f18e83f7e9e[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Thu May 7 13:43:18 2015 +0300
+
+    las;t
+
+[33mcommit 19d606d9c26ef9a813efc82a62444f1656afd58c[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Thu May 7 13:42:09 2015 +0300
+
+    las;t
+
+[33mcommit 62a2f28a90e1b822ae11a158e4e5100f6e4e3f30[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Thu May 7 13:32:41 2015 +0300
+
+    last
+
+[33mcommit ee07be4d8026c5e98d9f113c567aefbb5b7d65e6[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Thu May 7 13:28:23 2015 +0300
+
+    last
+
+[33mcommit ca6bb62996b0b32768bb33637f9515b9e24d2579[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Thu May 7 13:20:16 2015 +0300
+
+    last
+
+[33mcommit d188cc700998136275c9da8ed5cff4d0583be458[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Thu May 7 13:03:45 2015 +0300
+
+    last
+
+[33mcommit 65016a0c446bc88e42151eb3c7ac397992e97c05[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Sat Apr 25 06:34:41 2015 +0300
+
+    User + Comment
+
+[33mcommit 65550c6b7c0dec0a1f3ed618634f92cd5543d5a6[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Thu Apr 23 08:37:32 2015 +0300
+
+    bootstrap
+
+[33mcommit bf0a80ee00e71b706bb397c6d4adbd8d8a2f5a1a[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Thu Apr 16 19:16:42 2015 +0300
+
+    bad registration
+
+[33mcommit 64f1c71b386b744394716c20ef29bb252956fd9e[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Thu Apr 16 05:26:35 2015 +0300
+
+    firt auth
+
+[33mcommit 6de9c6d8671e6c4ad5bdaf1adc7aab5e56bf252e[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Thu Apr 16 05:00:23 2015 +0300
+
+    first-3 bootstrap
+
+[33mcommit 5debddb40df731fe4425d92a99ac9b7998778102[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Thu Apr 16 04:57:45 2015 +0300
+
+    first-2 bootstrap
+
+[33mcommit fa694a2796b2666f8a4caa27b1be78876b00c21b[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Thu Apr 16 04:45:23 2015 +0300
+
+    first bootstrap
+
+[33mcommit b428ab84dfd5cc6156001b06fd9f9e017cf69bb0[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Wed Apr 15 20:12:47 2015 +0300
+
+    migr development
+
+[33mcommit d1168d202cb66656b4ecab7bbacf0d2b1fb46d84[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Wed Apr 15 03:21:16 2015 +0300
+
+    root route
+
+[33mcommit 866cb13f5c20b111f597bb84d1bd194caf2e82bd[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Wed Apr 15 03:09:47 2015 +0300
+
+    production
+
+[33mcommit 7b20f161744eefb5260d27eeb27afcab54a08b1c[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Wed Apr 15 02:58:40 2015 +0300
+
+    production
+
+[33mcommit 5cd83cd50a4e6f43837dbd4e063a40c6b232d89e[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Wed Apr 15 02:24:13 2015 +0300
+
+    last
+
+[33mcommit 7f15df42caf313de878ce82d1f5e5b4fa4e0da61[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Mon Apr 13 17:50:44 2015 +0300
+
+    Gems1
+
+[33mcommit 37912826bec0904f808e0e627b5c76e2eaa41a61[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Sun Apr 12 18:44:51 2015 +0300
+
+    kk
+
+[33mcommit 8ddb5cc30bed2f7a93c3e8bb5554a7d80aaacf2b[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Sun Apr 12 06:08:49 2015 +0300
+
+    Gems1
+
+[33mcommit 85426369f898fe2f7fcbc10041e1ccbe6cceb84c[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Fri Apr 10 04:47:16 2015 +0300
+
+    Github
+
+[33mcommit f0f4c465e97b57861acc05638a52911c3948ad29[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Thu Apr 9 07:27:44 2015 +0300
+
+    some text2
+
+[33mcommit c8848ad56631f53ba8ea4a5d3b70c0ee678a51c0[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Thu Apr 9 07:23:12 2015 +0300
+
+    some text2
+
+[33mcommit 31b4fa1d19fbecae25f74b71fe306201c8e21eb1[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Thu Apr 9 07:19:51 2015 +0300
+
+    some text2
+
+[33mcommit 2b9b740b0eed7cc93dea59160154317f5ed6bc6a[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Thu Apr 9 07:00:11 2015 +0300
+
+    Bundler
+
+[33mcommit d80b7e05f0d9edd4fa94556ff4ad0dbf90486eef[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Thu Apr 9 06:23:40 2015 +0300
+
+    Comment Deliting
+
+[33mcommit 3e9f607c6070b12955129882be4bc0aaaca8e5ed[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Thu Apr 9 05:57:23 2015 +0300
+
+    Comment partial
+
+[33mcommit 42627eadf34e3baa8271ea0443b683562eabcd5f[m
+Author: Anna <mafackahero@gmail.com>
+Date:   Sat Mar 7 04:52:17 2015 +0200
+
+    First Commit

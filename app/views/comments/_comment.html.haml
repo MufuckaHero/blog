@@ -1,11 +1,16 @@
-%p
-  %strong Commenter:
-  = comment.commenter 
- 
-%p
-  %strongn Comment:
-  = comment.body 
+.row
 
-%p
-  -if comment.user == current_user
-    = link_to 'Destroy Comment',  [comment.post, comment] , method: :delete, data: { confirm: 'Are you sure?' } 
+  .col-md-6
+    %p
+      = comment.user.email
+   
+    
+    %p
+      = comment.body 
+
+  .col-md-6
+    .btn-group.pull-right
+      -if comment.user == current_user 
+        = link_to 'Destroy',  [comment.post, comment] , method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-default"
+ 
+%br    

@@ -1,25 +1,54 @@
-%h1= @post.title 
- 
-%p= @post.text 
+#post_show.row
+  .col-md-8.col-md-offset-2
+    .panel.panel-default
+      .panel-heading.post_image
+        - if @post.image.present? 
+          = image_tag @post.image.url
+      .panel-body
+        %h1= @post.title 
+        %p= @post.text 
+       
 
-%p= @post.user.email
+      .panel-footer
+        .row
+          .col-md-6
+            %p.user
+              Submitted by
+              = @post.user.email
+              %br
+              = @post.created_at.strftime("%B %d, %Y")
+          .col-md-6
+            .btn-group.pull-right 
+              -if @post.user != current_user
+                =link_to like_post_path(@post), method: :put, class: "btn btn-default" do
+                  %span.glyphicon.glyphicon-heart
+                    = @post.get_upvotes.size
+              -if @post.user == current_user
+                = link_to 'Edit', edit_post_path(@post), class: "btn btn-default"
+                = link_to 'Destroy', post_path(@post), method: :delete, data: { confirm: "Are you sure?" }, class: "btn btn-default"
+                .btn.btn-default
+                  %span.glyphicon.glyphicon-heart
+                    = @post.get_upvotes.size
 
-%p
-  -if @post.user == current_user
-    %button.btn.btn-default= link_to 'Edit', edit_post_path(@post) 
-    %button.btn.btn-default= link_to 'Destroy', post_path(@post), method: :delete, data: { confirm: "Are you sure?" } 
+		    
 
-%br
+     
+    %br
+    %br
 
-.col-lg-6
-  %h4 Comments
-  = render @post.comments 
+      .panel.panel-default
+        .panel-heading
+          .panel-footer
+            Comments
+         
+        .panel-body
+          = render @post.comments 
 
 
-  %h4 Add a comment:
-
-  = render "comments/form"
-
-  %p 
-    = link_to 'All Posts', posts_path 
-
+        .panel-footer
+          .row
+            .col-md-6
+  
+              = render "comments/form"
+  
+           

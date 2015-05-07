@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  before_action :set_post, only: [:show, :edit, :update, :destroy]
+  before_action :set_post, only: [:show, :edit, :update, :destroy, :upvote]
   before_action :authenticate_user!, except: [:index, :show]
 
   # GET /posts
@@ -57,16 +57,23 @@ class PostsController < ApplicationController
     redirect_to posts_path
   end
 
+  def upvote
+    @post.upvote_by current_user
+    redirect_to :back
+  end
+
+
+
   private
 
-
+  
     # Use callbacks to share common setup or constraints between actions.
-    def set_post
-      @post = Post.find(params[:id])
-    end
+  def set_post
+    @post = Post.find(params[:id])
+  end
 
     # Never trust parameters from the scary internet, only allow the white list through.
   def post_params
-    params.require(:post).permit(:title, :text)
+    params.require(:post).permit(:title, :text, :image)
   end
 end

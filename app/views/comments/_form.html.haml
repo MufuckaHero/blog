@@ -1,8 +1,4 @@
 = simple_form_for([@post, @post.comments.build]) do |f| 
-  .form-group
-    = f.input :commenter, input_html: {class: 'form_control'}
-  .form-group
-    = f.input :body, input_html: {class: 'form_control'}
+  = f.text_area :body
 
-  = f.button :submit, class: 'btn btn-primary' 
-
+  = f.button :submit, class: "btn btn-default"
