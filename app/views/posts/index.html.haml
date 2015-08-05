@@ -1,5 +1,4 @@
 #posts.transitions-enabled
-
   - @posts.each do |post| 
     .box.panel.panel-default
       - if post.image.present? 
@@ -11,6 +10,5 @@
           = post.user.email
           %br
           = post.created_at.strftime("%B %d, %Y")
-
   %br
 

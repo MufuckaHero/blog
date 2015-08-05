@@ -21,6 +21,7 @@ gem 'sqlite3', group: :development
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'simple_form'
+gem 'aws-sdk-v1'
 gem 'paperclip', '~> 4.2.1'
 gem 'masonry-rails', '~> 0.2.4'
 gem 'acts_as_votable', '~> 0.10.0'

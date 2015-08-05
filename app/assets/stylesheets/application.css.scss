@@ -1,14 +1,10 @@
 /*
 *= require 'masonry/transitions'
-*= require_tree .
 *= require_self
 */
 
-
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
 
 body {
 	background: #E9E9E9;
@@ -109,7 +105,6 @@ textarea {
   height: 50px;
 }
 
-
 #comments {
   margin: 0 auto;
   width: 100%;
@@ -123,7 +118,6 @@ textarea {
 	  	max-width: 100%;
 	  	height: auto;
 	  }
-
 	  h2 {
 	  	font-size: 22px;
 	  	margin: 0;
